@@ -1,0 +1,11 @@
+[workflows]
+runButton = "Run Discord Bot"
+
+[[workflows.workflow]]
+name = "Run Discord Bot"
+author = 44017084
+mode = "sequential"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "cd Discord-Bot && python3 main.py"

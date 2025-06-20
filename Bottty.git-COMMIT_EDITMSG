@@ -1,0 +1,14 @@
+Assistant checkpoint: Fix Python command and imports
+
+Assistant generated file changes:
+- Discord-Bot/main.py: Fix missing datetime import and python command, Move auction_formats loading to proper location
+- .replit: Updated app configuration
+
+---
+
+User prompt:
+
+Explain any errors or mistakes in this code
+
+Replit-Commit-Author: Assistant
+Replit-Commit-Session-Id: 926fa60a-8b18-4129-b89c-1b31e64dda65
