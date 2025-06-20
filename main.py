@@ -3997,6 +3997,10 @@ class EmbedManagerView(discord.ui.View):
                 pass
         
         if self.embed_data["image"]:
+            try:
+                embed.set_image(url=self.embed_data["image"])
+            except:
+                pass
 
 
 # --------- Boost Role Management -----------
