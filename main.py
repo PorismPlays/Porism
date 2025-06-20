@@ -4211,8 +4211,8 @@ async def inviteleaderboard(interaction: discord.Interaction):
     await interaction.response.send_message(embed=embed)
 
 
-            try:
-                embed.set_image(url=self.embed_data["image"])
+        try:
+            embed.set_image(url=self.embed_data["image"])
             except:
                 pass
         
